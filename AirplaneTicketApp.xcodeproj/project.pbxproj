@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4176652ACB280E00229E81 /* ShowTicketsTableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D4176642ACB280E00229E81 /* ShowTicketsTableViewViewController.m */; };
+		0D958EA02ACB533200BADB32 /* PurchasedTickets.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D958E9F2ACB533200BADB32 /* PurchasedTickets.m */; };
+		0DA35F432ACB0946003861C9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F422ACB0946003861C9 /* AppDelegate.m */; };
+		0DA35F462ACB0946003861C9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F452ACB0946003861C9 /* SceneDelegate.m */; };
+		0DA35F492ACB0946003861C9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F482ACB0946003861C9 /* ViewController.m */; };
+		0DA35F4C2ACB0946003861C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA35F4A2ACB0946003861C9 /* Main.storyboard */; };
+		0DA35F4E2ACB0947003861C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DA35F4D2ACB0947003861C9 /* Assets.xcassets */; };
+		0DA35F512ACB0947003861C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DA35F4F2ACB0947003861C9 /* LaunchScreen.storyboard */; };
+		0DA35F542ACB0947003861C9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F532ACB0947003861C9 /* main.m */; };
+		0DA35F5C2ACB0CEB003861C9 /* Ticket.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F5B2ACB0CEB003861C9 /* Ticket.m */; };
+		0DA35F5F2ACB0E5F003861C9 /* Booking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA35F5E2ACB0E5F003861C9 /* Booking.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D4176632ACB280E00229E81 /* ShowTicketsTableViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTicketsTableViewViewController.h; sourceTree = "<group>"; };
+		0D4176642ACB280E00229E81 /* ShowTicketsTableViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTicketsTableViewViewController.m; sourceTree = "<group>"; };
+		0D958E9E2ACB533200BADB32 /* PurchasedTickets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PurchasedTickets.h; sourceTree = "<group>"; };
+		0D958E9F2ACB533200BADB32 /* PurchasedTickets.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PurchasedTickets.m; sourceTree = "<group>"; };
+		0DA35F3E2ACB0946003861C9 /* AirplaneTicketApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirplaneTicketApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA35F412ACB0946003861C9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0DA35F422ACB0946003861C9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0DA35F442ACB0946003861C9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		0DA35F452ACB0946003861C9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		0DA35F472ACB0946003861C9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DA35F482ACB0946003861C9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0DA35F4B2ACB0946003861C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0DA35F4D2ACB0947003861C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0DA35F502ACB0947003861C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0DA35F522ACB0947003861C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DA35F532ACB0947003861C9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0DA35F5A2ACB0CEB003861C9 /* Ticket.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Ticket.h; sourceTree = "<group>"; };
+		0DA35F5B2ACB0CEB003861C9 /* Ticket.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Ticket.m; sourceTree = "<group>"; };
+		0DA35F5D2ACB0E5F003861C9 /* Booking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Booking.h; sourceTree = "<group>"; };
+		0DA35F5E2ACB0E5F003861C9 /* Booking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Booking.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0DA35F3B2ACB0946003861C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0DA35F352ACB0946003861C9 = {
+			isa = PBXGroup;
+			children = (
+				0DA35F402ACB0946003861C9 /* AirplaneTicketApp */,
+				0DA35F3F2ACB0946003861C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0DA35F3F2ACB0946003861C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0DA35F3E2ACB0946003861C9 /* AirplaneTicketApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0DA35F402ACB0946003861C9 /* AirplaneTicketApp */ = {
+			isa = PBXGroup;
+			children = (
+				0DA35F412ACB0946003861C9 /* AppDelegate.h */,
+				0DA35F422ACB0946003861C9 /* AppDelegate.m */,
+				0DA35F442ACB0946003861C9 /* SceneDelegate.h */,
+				0DA35F452ACB0946003861C9 /* SceneDelegate.m */,
+				0DA35F472ACB0946003861C9 /* ViewController.h */,
+				0DA35F482ACB0946003861C9 /* ViewController.m */,
+				0DA35F4A2ACB0946003861C9 /* Main.storyboard */,
+				0DA35F4D2ACB0947003861C9 /* Assets.xcassets */,
+				0DA35F4F2ACB0947003861C9 /* LaunchScreen.storyboard */,
+				0DA35F522ACB0947003861C9 /* Info.plist */,
+				0DA35F532ACB0947003861C9 /* main.m */,
+				0DA35F5A2ACB0CEB003861C9 /* Ticket.h */,
+				0DA35F5B2ACB0CEB003861C9 /* Ticket.m */,
+				0DA35F5D2ACB0E5F003861C9 /* Booking.h */,
+				0DA35F5E2ACB0E5F003861C9 /* Booking.m */,
+				0D4176632ACB280E00229E81 /* ShowTicketsTableViewViewController.h */,
+				0D4176642ACB280E00229E81 /* ShowTicketsTableViewViewController.m */,
+				0D958E9E2ACB533200BADB32 /* PurchasedTickets.h */,
+				0D958E9F2ACB533200BADB32 /* PurchasedTickets.m */,
+			);
+			path = AirplaneTicketApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DA35F3D2ACB0946003861C9 /* AirplaneTicketApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0DA35F572ACB0947003861C9 /* Build configuration list for PBXNativeTarget "AirplaneTicketApp" */;
+			buildPhases = (
+				0DA35F3A2ACB0946003861C9 /* Sources */,
+				0DA35F3B2ACB0946003861C9 /* Frameworks */,
+				0DA35F3C2ACB0946003861C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirplaneTicketApp;
+			productName = AirplaneTicketApp;
+			productReference = 0DA35F3E2ACB0946003861C9 /* AirplaneTicketApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0DA35F362ACB0946003861C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0DA35F3D2ACB0946003861C9 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 0DA35F392ACB0946003861C9 /* Build configuration list for PBXProject "AirplaneTicketApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0DA35F352ACB0946003861C9;
+			productRefGroup = 0DA35F3F2ACB0946003861C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0DA35F3D2ACB0946003861C9 /* AirplaneTicketApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DA35F3C2ACB0946003861C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA35F512ACB0947003861C9 /* LaunchScreen.storyboard in Resources */,
+				0DA35F4E2ACB0947003861C9 /* Assets.xcassets in Resources */,
+				0DA35F4C2ACB0946003861C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0DA35F3A2ACB0946003861C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DA35F5C2ACB0CEB003861C9 /* Ticket.m in Sources */,
+				0DA35F492ACB0946003861C9 /* ViewController.m in Sources */,
+				0DA35F432ACB0946003861C9 /* AppDelegate.m in Sources */,
+				0D958EA02ACB533200BADB32 /* PurchasedTickets.m in Sources */,
+				0D4176652ACB280E00229E81 /* ShowTicketsTableViewViewController.m in Sources */,
+				0DA35F5F2ACB0E5F003861C9 /* Booking.m in Sources */,
+				0DA35F542ACB0947003861C9 /* main.m in Sources */,
+				0DA35F462ACB0946003861C9 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0DA35F4A2ACB0946003861C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA35F4B2ACB0946003861C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0DA35F4F2ACB0947003861C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0DA35F502ACB0947003861C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0DA35F552ACB0947003861C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0DA35F562ACB0947003861C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0DA35F582ACB0947003861C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneTicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.AirplaneTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0DA35F592ACB0947003861C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AirplaneTicketApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ca.seneca.AirplaneTicketApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0DA35F392ACB0946003861C9 /* Build configuration list for PBXProject "AirplaneTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA35F552ACB0947003861C9 /* Debug */,
+				0DA35F562ACB0947003861C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0DA35F572ACB0947003861C9 /* Build configuration list for PBXNativeTarget "AirplaneTicketApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DA35F582ACB0947003861C9 /* Debug */,
+				0DA35F592ACB0947003861C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0DA35F362ACB0946003861C9 /* Project object */;
+}
